@@ -1,0 +1,32 @@
+main {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+.timer-section {
+    position: relative;
+}
+.timer {
+    color: var(--neon-green);
+}
+/* styling the timer options */
+.timer-options {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-evenly;
+}
+.timer-option {
+    letter-spacing: -1px;
+    color: var(--lighter-pastel-green);
+}
+.timer-option:hover,
+.timer-option:focus {
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--darker-neon-green);
+}
+
+.timer-option:active {
+    opacity: 0.6;
+}

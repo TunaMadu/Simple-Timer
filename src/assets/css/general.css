@@ -1,0 +1,57 @@
+:root {
+    /*gray tone color  */
+    --dark-color: #2d2d2a;
+
+    /* main color */
+    --dark-olive: #353831;
+
+    /* main color variants */
+    --lighter-olive: #38423b;
+    --pastel-green: #3f5e5a;
+    --lighter-pastel-green: #657e7b;
+
+    /* accent color */
+    --neon-green: #20fc8f;
+    --darker-neon-green: #1aca72;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--dark-color);
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    font-size: 8.6em;
+}
+.container {
+    max-width: 130rem;
+}
+
+.flx-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flx-center-items {
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: transparent;
+    border-width: 0;
+    font-family: inherit;
+    font-size: 2.4rem;
+    font-style: inherit;
+    font-weight: 700;
+    line-height: inherit;
+    padding: 0;
+}
