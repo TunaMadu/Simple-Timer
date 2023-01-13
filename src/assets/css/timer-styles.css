@@ -10,6 +10,19 @@ main {
 .timer {
     color: var(--neon-green);
 }
+
+.blink {
+    animation: blink 2s infinite;
+}
+@keyframes blink {
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 /* styling the timer options */
 .timer-options {
     display: flex;
